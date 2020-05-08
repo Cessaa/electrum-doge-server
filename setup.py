@@ -6,21 +6,21 @@ setup(
     scripts=['run_electrum_doge_server','electrum-doge-server'],
     install_requires=['plyvel','jsonrpclib', 'irc==14.2.2'],
     package_dir={
-        'electrumdoge':'src'
+        'electrumdogeserver':'src'
         },
     py_modules=[
-        'electrumdoge.__init__',
-        'electrumdoge.utils',
-        'electrumdoge.storage',
-        'electrumdoge.deserialize',
-        'electrumdoge.networks',
-        'electrumdoge.blockchain_processor',
-        'electrumdoge.server_processor',
-        'electrumdoge.processor',
-        'electrumdoge.version',
-        'electrumdoge.ircthread',
-        'electrumdoge.stratum_tcp',
-        'electrumdoge.stratum_http'
+        'electrumdogeserver.__init__',
+        'electrumdogeserver.utils',
+        'electrumdogeserver.storage',
+        'electrumdogeserver.deserialize',
+        'electrumdogeserver.networks',
+        'electrumdogeserver.blockchain_processor',
+        'electrumdogeserver.server_processor',
+        'electrumdogeserver.processor',
+        'electrumdogeserver.version',
+        'electrumdogeserver.ircthread',
+        'electrumdogeserver.stratum_tcp',
+        'electrumdogeserver.stratum_http'
     ],
     description="Doge Electrum Server",
     author="Thomas Voegtlin",
