@@ -4,7 +4,7 @@ setup(
     name="electrum-doge-server",
     version="0.9",
     scripts=['run_electrum_doge_server','electrum-doge-server'],
-    install_requires=['plyvel','jsonrpclib', 'irc'],
+    install_requires=['plyvel','jsonrpclib', 'irc==14.2.2'],
     package_dir={
         'electrumdoge':'src'
         },
